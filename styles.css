@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px 0;
+    background-color: #ffc5e5;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+.left, .right {
+    transform: translateY(-30px);
+}
+
+
+.left h1 {
+    font-size: 105px;
+    line-height: 1;
+    color: #401f18;
+    text-transform: uppercase;
+    font-family: "Passion One", sans-serif;
+    padding-top: 45px;
+}
+
+.right p {
+    max-width: 400px;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #401f18;
+}
+
+.image-container{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+.girl-face {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 59%;
+
+}
+
+.button-container {
+    cursor: pointer;
+    font-size: 20px;
+    align-self: flex-start;
+    text-align: left;
+    text-decoration: underline;
+    border: none;
+    background: none;
+    color: #401f18;
+    font-weight: bold;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.second-section {
+    background-color: #fcfcef;
+    padding: 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-image {
+    flex: 1;
+    width:45%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text {
+    width: 55%;
+    min-height: 600px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.about-text h2 {
+    font-family: "Passion One", sans-serif;
+    font-size: 90px;
+    color: #401f18;
+    line-height: 1;
+    margin-bottom: 110px;
+}
+
+.about-text p {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    max-width: 500px;
+    align-items: center;
+}
+
+.hand-drawing {
+    flex: 1;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.image-caption {
+    background-color: #401f18;
+    height: 200px;
+    width: 100%;
+    color: #fcfcef;
+    padding: 30px;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.2;
+    font-size: 40px;
+    font-family: "Passion One", sans-serif;
+}
+
+.third-section {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 50px;
+    background-color: #c2d245;
+
+}
+
+.service-text {
+    width: 150px;
+}
+
+.service-text h3 {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 20px;
+    color: #401f18;
+    margin-bottom: 15px;
+}
+
+.service-text p {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 16px;
+    color: #401f18;
+}
+
+.services-title {
+    width: 35%;
+}
+
+.services-title h2 {
+    font-family: "Passion One", sans-serif;
+    font-size: 90px;
+    line-height: 1;
+    color: #401f18;
+}
+
+.service-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.service-card {
+    width: 400px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fcfcef;
+    padding: 25px;
+}
+
+.image-box {
+    width: 150px;
+    height: 150px;
+    background-color: #ffc5e5;
+}
+
+.box-one {
+    background-color: #401f18;
+
+}
+
+.semi-circle {
+    width: 150px;
+    height: 75px;
+    border-top-right-radius: 75px;
+    border-top-left-radius: 75px;
+    background-color: #ffc5e5;
+}
+
+.box-two {
+    display: flex;
+}
+
+.oval-one, .oval-two, .oval-three {
+    background-color: #401f18;
+    border-radius: 100%;
+    height: 150px;
+}
+
+.oval-one {
+    width: 25px;
+}
+
+.oval-two {
+    width: 50px;
+}
+
+.oval-three {
+    width: 75px;
+}
+
+
+.box-three {
+    position: relative;
+    
+}
+
+.image-box img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.small-square {
+    width: 75px;
+    height: 75px;
+    background-color: #401f18;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
